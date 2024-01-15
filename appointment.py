@@ -85,14 +85,5 @@ if __name__ == "__main__":
     website_url = 'https://www.ingolstadt.de/tevisweb/select2?md=4'
     my_current_appointment='20.03.2024'
     # Path to your ChromeDriver
-    driver_path = r"C:\Users\z004urpu\Documents\courses_mylearning\appointment\chromedriver-win64\chromedriver-win64\chromedriver.exe"
+    driver_path = r"C:\Users\.....\chromedriver-win64\chromedriver-win64\chromedriver.exe"
     result = check_appointment_availability(website_url, my_current_appointment, driver_path)
-
-
-
- # # Wait for the alert to be present
-    # WebDriverWait(driver, 20).until(EC.alert_is_present())
-    # # Switch to the alert
-    # alert = Alert(driver)
-    # # You can either accept (click OK) or dismiss (click Cancel) the alert
-    # alert.accept()
