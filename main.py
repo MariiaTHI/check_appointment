@@ -5,7 +5,7 @@ from sendemail import send_email_with_result
 website_url = 'https://www.ingolstadt.de/tevisweb/select2?md=4'
 my_current_appointment='20.03.2024'
 # Path to your ChromeDriver
-driver_path = r"C:\Users\z004urpu\Documents\courses_mylearning\appointment\chromedriver-win64\chromedriver-win64\chromedriver.exe"
+driver_path = r"C:\.....\chromedriver-win64\chromedriver-win64\chromedriver.exe"
 
 if __name__ == "__main__":
     check_interval_seconds = 3600  # Check once every hour 
